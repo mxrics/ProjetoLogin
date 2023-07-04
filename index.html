@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cadastramento</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="img">
+            <img src="assets/img/undraw_cat_epte.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="!">
+                <div class="header">
+                    <div class="title">
+                        <h1>Welcome!!</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Enter</a></button>
+                    </div>
+                </div>
+
+                <div class="group">
+                    <div class="box">
+                        <label for="FirstName">First Name</label>
+                        <input type="text" name="FirstName" id="firstName" placeholder="Type your first name" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="LastName">Surname</label>
+                        <input type="text" name="LastName" id="lastName" placeholder="Type your surname" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="email">E-mail</label>
+                        <input type="email" name="email" id="email" placeholder="Type your e-mail" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="number">Telephone</label>
+                        <input type="tel" name="number" id="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Type your password" required>
+                    </div>
+
+                    <div class="box">
+                        <label for="Confirmpassword">Password Confirm</label>
+                        <input type="password" name="Confirmpassword" id="Confirmpassword"
+                            placeholder="Confirm your password" required>
+                    </div>
+
+                    <div class="gender">
+                        <div class="gender-title">
+                            <h6>Gender</h6>
+                        </div>
+
+                        <div class="gender-group">
+                            <div class="gender-box">
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                            </div>
+                            <div class="gender-box">
+                                <input type="radio" name="gender" id="male">
+                                <label for="Male">Male</label>
+                            </div>
+                            <div class="gender-box">
+                                <input type="radio" name="gender" id="others">
+                                <label for="others">Others</label>
+                            </div>
+                            <div class="gender-box">
+                                <input type="radio" name="gender" id="none">
+                                <label for="none">Prefer Not To Say</label>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="continue-button">
+                        <button><a href="#">Continue</a></button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
